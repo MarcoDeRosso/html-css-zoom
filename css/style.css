@@ -14,6 +14,17 @@
 .windows-container{
     background: #000;
     flex-grow: 1;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.windows-container img{
+    max-width: 250px;
+    max-height: 150px;
+    width: calc(100% / 8 - 10px);
+    margin: 5px;
 }
 
 /* inizio navbar */
