@@ -9,6 +9,27 @@
     height: 100vh;
     flex-direction: column;
 }
+
+/* inizio header */
+
+header{
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul{
+    color: #fff;
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 10px;
+    background-color: #4a4a4a;
+    padding: 5px;
+}
+
 /* inizio contenitore immagini  */
 
 .windows-container{
